@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: work Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+
+    background: #FFF4E7;
+    padding-bottom: 2%;
+}
+#title{
+    font-size: 35px;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 10%;
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    font-size: 15px;
+    margin-right: 60px;
+    font-weight: 00;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+.moto-title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 3%;
+}
+.moto-description{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 2%;
+    color: #727272;
+}
+#button{
+    text-align: center;
+    margin-top: 2%;
+}
+#explore-button{
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 0;
+    padding: 1% 1%;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#banner-img{
+
+    display: block;
+    margin: 0 auto;
+    width: 78%;
+    margin-top: 3%;
+}
