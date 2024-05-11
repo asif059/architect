@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 10%;
+    padding: 3% 0;
 }
 nav ul{
 
@@ -105,5 +105,43 @@ nav ul li a{
 }
 
 @media screen and (max-width: 576px) {
-    
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        margin-top: 20px;
+    }
+    nav ul li{
+        margin: 0 25px 0 0;
+    }
+    .moto-title{
+        font-size: 25px;
+    }
+    .moto-description{
+        font-size: 7px;
+    }
+    .explore-button{
+        padding: 7px 9px;
+        font-size: 7px;
+    }
+    .feature-container{
+        flex-direction: column;
+        padding: 5% 5% 0% 5%;
+    }
+    .image-1{
+        width: 130px;
+    }
+    .feature-details{
+        padding-top: 5%;
+    }
+    .feature-title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .feature-description{
+        font-size: 12px;
+        text-align: center;
+        margin-right: 0;
+        padding: 3% 0;
+    }
 }
