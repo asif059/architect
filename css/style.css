@@ -325,8 +325,9 @@ footer{
     }
     .awards-content{
         display: grid;
-        grid-template-columns: repeat(2, 206px);
+        grid-template-columns: repeat(2, 200px);
         row-gap: 25px;
+        justify-content: normal;
     }
     .award-title{
         font-size: 20px;
