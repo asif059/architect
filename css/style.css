@@ -50,7 +50,7 @@ nav ul li a{
 }
 .explore-button{
     color: #FFFFFF;
-    background: #FF900E;
+    background: linear-gradient(#FF900E, #80582A);
     border: 0;
     padding: 13px 20px;
     font-size: 13px;
@@ -186,6 +186,7 @@ nav ul li a{
     height: 140px;
     padding: 25px;
     align-content: center;
+    box-shadow: 2px 2px 20px 6px #ffcbcb;
 }
 .awards img{
 
