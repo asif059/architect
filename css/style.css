@@ -9,7 +9,7 @@ header{
     background: #FFF4E7;
     padding-bottom: 2%;
 }
-#title, .facts-title{
+#title{
     font-size: 35px;
 }
 nav{
@@ -119,7 +119,7 @@ nav ul li a{
     border-left: 3px solid #FF900E;
     padding-left: 15px;
 }
-.feature-description, .facts-describe{
+.feature-description{
     font-size: 12px;
     color: #727272;
     margin-top: 20px;
@@ -166,8 +166,14 @@ nav ul li a{
     color: #FFFFFF;
     text-align: center;
 }
-.facts-container{
-
+.facts-title{
+    font-size: 35px;
+    padding-left: 10%;
+}
+.facts-describe{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 20px;
     padding-left: 10%;
 }
 .awards-content{
@@ -276,5 +282,59 @@ footer{
         text-align: center;
         margin-right: 0;
         padding: 3% 0;
+    }
+    .feature-container{
+        flex-direction: column;
+        padding: 0;
+    }
+    .feature-title{
+        font-size: 12px;
+    }
+    .feature-description{
+        font-size: 6px;
+    }
+    .feature-name{
+        padding-top: 20px;
+    }
+    .feature-name-title{
+        font-size: 9px;
+    }
+    .feature-name-description{
+        font-size: 6px;
+    }
+    .feature-image{
+        margin-left: 35px;
+        /*! display: block; */
+    }
+    .feature-image img{
+        width: 90%;
+        margin: 0;
+    }
+    .badge{
+        right: 18px;
+    }
+    .facts-title{
+        font-size: 20px;
+    }
+    .facts-describe{
+        font-size: 7px;
+    }
+    .awards{
+        width: 90px;
+        height: 90px;
+    }
+    .awards-content{
+        display: grid;
+        grid-template-columns: repeat(2, 206px);
+        row-gap: 25px;
+    }
+    .award-title{
+        font-size: 20px;
+    }
+    .award-desc{
+        font-size: 10px;
+    }
+    footer{
+        font-size: 10px;
     }
 }
