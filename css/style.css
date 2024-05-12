@@ -64,12 +64,13 @@ nav ul li a{
     width: 78%;
     margin-top: 3%;
 }
-.feature-container{
+.team-container{
     display: flex;
     align-items: center;
     padding: 5% 0% 5% 15%;
+    /*! width: 50%; */
 }
-.feature-images{
+.team-images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -78,16 +79,16 @@ nav ul li a{
     
     width: 230px;
 }
-.feature-details{
+.team-details{
 
     padding: 0% 5%;
 }
-.feature-title{
+.team-title{
 
     font-size: 27px;
     /*! margin-bottom: 3%; */
 }
-.feature-description{
+.team-description{
 
     font-size: 12px;
     color: #727272;
@@ -102,6 +103,68 @@ nav ul li a{
 #feature{
 
     color: #FF900E;
+}
+.feature-container{
+    padding-left: 8%;
+    display: flex;
+    gap: 127px;
+    padding-top: 2%;
+}
+.feature-detail{
+
+    margin-top: 30px;
+}
+.feature-title{
+    font-size: 30px;
+    border-left: 3px solid #FF900E;
+    padding-left: 15px;
+}
+.feature-description{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 20px;
+}
+.feature-name{
+
+    padding: 60px 0px 0px 20px;
+}
+.feature-name-title{
+
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.feature-name-description{
+    
+    color: #727272;
+    font-size: 12px;
+}
+.feature-image{
+    
+    /*! margin-left: 268px; */
+}
+.feature-image img{
+
+    width: 70%;
+}
+.badge{
+    background: #FF900E;
+    width: 200px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    position: relative;
+    right: 285px;
+    bottom: 75px;
+}
+#year{
+
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#experience{
+
+    color: #FFFFFF;
+    text-align: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -124,21 +187,21 @@ nav ul li a{
         padding: 7px 9px;
         font-size: 7px;
     }
-    .feature-container{
+    .team-container{
         flex-direction: column;
         padding: 5% 5% 0% 5%;
     }
     .image-1{
         width: 130px;
     }
-    .feature-details{
+    .team-details{
         padding-top: 5%;
     }
-    .feature-title{
+    .team-title{
         font-size: 20px;
         text-align: center;
     }
-    .feature-description{
+    .team-description{
         font-size: 12px;
         text-align: center;
         margin-right: 0;
